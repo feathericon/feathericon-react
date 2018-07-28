@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cp -r node_modules/feathericon/build/svg/ src/svg; svgr -d src/icons src/svg; node ./bin/build"
+    "build": "cp -r node_modules/feathericon/build/svg/ src/svg; svgr -d src/icons src/svg --filename-case kebab; node ./bin/build"
   },
   "repository": {
     "type": "git",
