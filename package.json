@@ -4,7 +4,8 @@
   "description": "React Component for feathericon",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp -r node_modules/feathericon/build/svg/ src/svg; svgr -d src/icons src/svg; node ./bin/build"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/feathericon/feathericon-react/issues"
   },
-  "homepage": "https://github.com/feathericon/feathericon-react#readme"
+  "homepage": "https://github.com/feathericon/feathericon-react#readme",
+  "devDependencies": {
+    "@svgr/cli": "^2.1.1",
+    "feathericon": "^1.0.0-beta.4",
+    "glob": "^7.1.2",
+    "uppercamelcase": "^3.0.0"
+  }
 }
