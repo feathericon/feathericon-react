@@ -1,1 +1,3 @@
 .gitignore
+bin
+package-lock.json
