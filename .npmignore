@@ -1,3 +1,4 @@
 .gitignore
+.babelrc
 bin
 package-lock.json

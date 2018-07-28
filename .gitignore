@@ -37,7 +37,6 @@ nbproject
 .ssh
 .grunt
 node_modules
-dist
 lib-cov
 lcov.info
 pids
